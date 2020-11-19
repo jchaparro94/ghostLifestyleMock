@@ -1,0 +1,22 @@
+{
+  "name": "ghostmocksite",
+  "version": "1.0.0",
+  "description": "recreation of the ghost lifestyle website template",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchaparro94/ghostLifestyleMock.git"
+  },
+  "author": "Jose Chaparro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jchaparro94/ghostLifestyleMock/issues"
+  },
+  "homepage": "https://github.com/jchaparro94/ghostLifestyleMock#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

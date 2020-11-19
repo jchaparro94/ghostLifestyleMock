@@ -1,0 +1,30 @@
+@import 'config';
+
+header {
+  height: 4rem;
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+
+    .phone-number {
+      height: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      i {
+        margin-right: 1rem;
+      }
+    }
+
+    .country-origins {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      p {
+        padding: 0 1rem;
+        color: #000;
+      }
+    }
+  }
+}
