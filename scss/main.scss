@@ -28,3 +28,52 @@ header {
     }
   }
 }
+
+nav {
+  height: 7rem;
+  .grid-3 {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    // gap: 1rem;
+
+    .logo-container {
+      background: #282828;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+    .nav-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $text-color;
+      text-transform: uppercase;
+
+      .nav-item {
+        i {
+          margin-left: 2rem;
+        }
+      }
+
+      .nav-item:nth-child(2) {
+        margin: 0 10rem;
+      }
+    }
+    .checkout-container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      text-transform: uppercase;
+      color: $text-color;
+      li {
+        margin-right: 3rem;
+        .fas {
+          font-size: 2rem;
+          color: #000;
+        }
+      }
+    }
+  }
+}
