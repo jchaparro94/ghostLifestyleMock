@@ -68,8 +68,12 @@ nav {
       align-items: center;
       color: #282828;
       text-transform: uppercase; }
-      nav .grid-3 .nav-items .nav-item i {
-        margin-left: 2rem; }
+      nav .grid-3 .nav-items .nav-item {
+        transition: all .2s ease; }
+        nav .grid-3 .nav-items .nav-item:hover {
+          color: #2C89FA; }
+        nav .grid-3 .nav-items .nav-item a i {
+          margin-left: 2rem; }
       nav .grid-3 .nav-items .nav-item:nth-child(2) {
         margin: 0 10rem; }
     nav .grid-3 .checkout-container {
@@ -83,3 +87,11 @@ nav {
         nav .grid-3 .checkout-container li .fas {
           font-size: 2rem;
           color: #000; }
+
+.showcase {
+  height: 90vh;
+  width: 100%;
+  overflow: hidden; }
+  .showcase img {
+    height: 100%;
+    width: 100%; }
