@@ -117,6 +117,7 @@ nav {
 
       &:hover {
         opacity: 0.3;
+
       }
     }
 
@@ -136,6 +137,41 @@ nav {
       color: #818181;
       text-transform: uppercase;
     }
+
+  }
+}
+
+.youtube-cta {
+  margin: 3rem 2rem;
+  
+  .youtube-vid-container,
+  .youtube-channel-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+
+.meet-the-team {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  height: 80rem;
+
+  .ad-container,
+  .cta-container {
+    background: #818181;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    h1 {
+      color: #f8f8f8;
+    }
+  }
+  .cta-container {
+    background: #000;
 
   }
 }
