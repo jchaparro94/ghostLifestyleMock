@@ -49,3 +49,10 @@ ul {
   padding: 0 1.5rem;
   margin: 0 auto;
 }
+
+// Grid 
+.grid-4{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
