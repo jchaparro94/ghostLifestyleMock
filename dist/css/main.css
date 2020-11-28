@@ -34,6 +34,11 @@ ul {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem; }
 
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem; }
+
 .grid-4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -198,3 +203,52 @@ nav {
       .subscribe .content-container .email-container a {
         padding-left: .5rem;
         color: #FF3A54; }
+
+footer {
+  background: #000;
+  color: #fff;
+  height: 400px; }
+  footer .grid-3 {
+    padding: 4rem 0;
+    border-bottom: 1px solid #fff; }
+    footer .grid-3 .nav-menu,
+    footer .grid-3 .social-links,
+    footer .grid-3 .support-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      footer .grid-3 .nav-menu h4,
+      footer .grid-3 .social-links h4,
+      footer .grid-3 .support-menu h4 {
+        padding-bottom: 2rem; }
+      footer .grid-3 .nav-menu li,
+      footer .grid-3 .social-links li,
+      footer .grid-3 .support-menu li {
+        padding: .5rem 0; }
+        footer .grid-3 .nav-menu li a,
+        footer .grid-3 .social-links li a,
+        footer .grid-3 .support-menu li a {
+          transition: all .2s ease-in; }
+          footer .grid-3 .nav-menu li a:hover,
+          footer .grid-3 .social-links li a:hover,
+          footer .grid-3 .support-menu li a:hover {
+            color: #FF3A54; }
+    footer .grid-3 .social-links {
+      justify-content: center; }
+      footer .grid-3 .social-links h4 {
+        font-size: 3rem; }
+      footer .grid-3 .social-links ul {
+        display: flex; }
+        footer .grid-3 .social-links ul a {
+          padding: 0 .5rem; }
+          footer .grid-3 .social-links ul a i {
+            font-size: 2rem; }
+  footer .disclaimer-container {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    footer .disclaimer-container p {
+      padding: .5rem 0; }

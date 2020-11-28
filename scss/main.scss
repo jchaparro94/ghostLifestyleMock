@@ -223,3 +223,61 @@ nav {
 
   }
 }
+
+footer {
+  background: #000;
+  color: #fff;
+  height: 400px;
+
+  .grid-3 {
+    padding: 4rem 0;
+    border-bottom: 1px solid #fff;
+
+    .nav-menu,
+    .social-links,
+    .support-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h4 {
+        padding-bottom: 2rem;
+      }
+      li {
+        padding: .5rem 0;
+        a {
+          transition: all .2s ease-in;
+          &:hover {
+            color: #FF3A54;
+          }
+        }
+      }
+    }
+    .social-links {
+      justify-content: center;
+      h4 {
+        font-size: 3rem;
+      }
+      ul {
+        display: flex;
+        a {
+          padding: 0 .5rem;
+          i {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+  .disclaimer-container {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    p {
+      padding: .5rem 0;
+    }
+  }
+}

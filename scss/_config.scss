@@ -59,6 +59,12 @@ ul {
     gap: 2rem;
   }
 
+  &3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
   &4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
