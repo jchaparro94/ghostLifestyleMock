@@ -175,3 +175,51 @@ nav {
 
   }
 }
+
+.subscribe {
+  padding: 4rem 0;
+  .content-container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .subscribe-logo {
+      font-size: 7rem;
+      padding: 2rem 0;
+    }
+    h2 {
+      font-size: 5rem;
+      text-transform: uppercase;
+      padding-bottom: 2rem;
+    }
+    p {
+      color: #A9A9A9;
+      text-align: center;
+      padding-bottom: 3rem;
+    }
+    
+    .email-container {
+      padding: .5rem 4rem;
+      display: flex;
+      align-items: center;
+      border: 1px solid #E1E8EE;
+      background: #F5F6F7;
+      input {
+        width: 20rem;
+        padding: .5rem 0;
+        border: none;
+        background: transparent;
+        &:focus {
+          outline: none;
+        }
+      }
+      a {
+        padding-left: .5rem;
+        color: #FF3A54;
+      }
+    }
+
+  }
+}

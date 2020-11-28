@@ -161,3 +161,40 @@ nav {
       color: #f8f8f8; }
   .meet-the-team .cta-container {
     background: #000; }
+
+.subscribe {
+  padding: 4rem 0; }
+  .subscribe .content-container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .subscribe .content-container .subscribe-logo {
+      font-size: 7rem;
+      padding: 2rem 0; }
+    .subscribe .content-container h2 {
+      font-size: 5rem;
+      text-transform: uppercase;
+      padding-bottom: 2rem; }
+    .subscribe .content-container p {
+      color: #A9A9A9;
+      text-align: center;
+      padding-bottom: 3rem; }
+    .subscribe .content-container .email-container {
+      padding: .5rem 4rem;
+      display: flex;
+      align-items: center;
+      border: 1px solid #E1E8EE;
+      background: #F5F6F7; }
+      .subscribe .content-container .email-container input {
+        width: 20rem;
+        padding: .5rem 0;
+        border: none;
+        background: transparent; }
+        .subscribe .content-container .email-container input:focus {
+          outline: none; }
+      .subscribe .content-container .email-container a {
+        padding-left: .5rem;
+        color: #FF3A54; }
